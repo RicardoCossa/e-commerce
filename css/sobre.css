@@ -22,14 +22,38 @@ figure {
     padding: 15px;
     margin: 30px;;
 }
+figure img {
+    width: 100%;
+}
 
 figcaption {
     margin-top: 10px;
     font-style: italic;
 }
+.centro-destribuicao {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.familia-pelho {
+    width: 240px;
+    float: right;
+    margin-top: 0;
+}
 
 p {
     text-align: justify;
     text-indent: 15px;
-    padding: 0 45px;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
 }
