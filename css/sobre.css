@@ -1,7 +1,8 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #333;
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -16,6 +17,8 @@ h2 {
 }
 
 figure {
+    max-width: 100%;
+    box-sizing: border-box;
     text-align: center;
     background-color: whitesmoke;
     border: 1px solid lightgrey;
