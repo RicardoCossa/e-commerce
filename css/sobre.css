@@ -60,3 +60,10 @@ p {
     vertical-align: middle;
     width: 94px;
 }
+
+@media(max-width: 622px) {
+    .familia-pelho {
+        float: none;
+        margin: 0 auto;
+    }
+}
